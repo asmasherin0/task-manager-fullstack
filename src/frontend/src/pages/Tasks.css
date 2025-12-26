@@ -1,0 +1,176 @@
+body {
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Dark mode */
+.container.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.container.dark input {
+  background: #2c2c2c;
+  color: white;
+  border: 1px solid #555;
+}
+
+.container.dark li {
+  background: #2c2c2c;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logout-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark-btn {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Form */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Error */
+.error-text {
+  color: #e53935;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  margin-top: 15px;
+}
+
+.filters button {
+  flex: 1;
+  margin: 0 4px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background: #e0e0e0;
+}
+
+.filters button.active {
+  background: #2196f3;
+  color: white;
+}
+
+/* Progress */
+.progress-container {
+  margin-top: 15px;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4caf50;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed-task {
+  background: #e8f5e9;
+}
+
+/* Badge */
+.badge {
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge.completed {
+  background: #4caf50;
+  color: white;
+}
+
+.badge.pending {
+  background: #ff9800;
+  color: white;
+}
+
+/* Buttons */
+.task-buttons button {
+  margin-left: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.complete-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: white;
+}
